@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="school logo.png">
+        <p>Pakistan Scool and College Salmiya Kuwait</p>
+    </header>
+
+    <div id="mainbody">
+
+        <div id="backgroundimg">
+            
+        <p id="mainheading">Registration form for HSSC-I</p>
+        <form>
+            <label class="Category mainlabel">Category:</label>
+            <label for="student" id="studentlabel">Own Student</label>
+            <input type="radio" name="Category" checked="checked" id="student">
+            <label for="openmerit">openmerit</label>
+            <input type="radio" name="Category" id="openmerit">
+            <label for="disable" id="disablelabel">Disable</label>
+            <input type="radio" name="Category" id="disable">
+
+            <label for="email" class="mainlabel" id="maillabel">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            
+            <label for="studentName" class="mainlabel" id="studentNameLabel">Student Name:</label>
+            <input type="text" id="studentName" placeholder="Enter name in Block letters">
+
+            <label for="FatherName" class="mainlabel" id="fatherNameLabel">Father Name:</label>
+            <input type="text" id="fatherName" placeholder="Enter name of Father">
+
+            <label for="religion" class="mainlabel" id="religionlabel">Religion:</label>
+            <input type="text" id="religion" placeholder="Enter your Religion">
+
+            <label for="designation" class="mainlabel" id="designationlabel">Designation:</label>
+            <input type="text" id="designation" placeholder="Enter Designation">
+
+            <label for="cnic" class="mainlabel" id="cniclabel">CNIC:</label>
+            <input type="number" id="cnic" placeholder="Enter without dashes" pattern="[0-9]{5} +- +[0-9]{7} +- +[0-9]{1}">
+
+            <label for="phone" class="mainlabel" id="phonelabel">Phone no:</label>
+            <input type="text" id="phone" placeholder="Enter Cell no">
+
+            <label for="present_address" class="mainlabel">Present Adress:</label>
+            <input type="text" id="present_address" placeholder="Enter present Address">
+
+            <label for="permenant_address" class="mainlabel">Permenant Adress:</label>
+            <input type="text" id="permenant_address" placeholder="Enter permenant Address">
+
+            <hr>
+
+            <p id="academicrecord">Academic Record Matric</p>
+            <label for="schoolname" class="mainlabel schoollabel">College:</label>
+            <input type="text" id="schoolname" placeholder="Enter school name">
+            <label for="board" class="mainlabel" id="boardlabel">Board:</label>
+            <input type="text" id="board" placeholder="Your board">
+            <label for="rollno"class="mainlabel"id="rollno_label">Roll No:</label>
+            <input type="text"  id="rollno" placeholder="Enter your roll no">
+            <label class="mainlabel" id="obt_label">Marks Obt:</label>
+            <input type="number" class="mark" id="marks_obt" placeholder="Marks obtained">
+            <label class="mainlabel" id="total_label">Total:</label>
+            <input type="number" class="mark  id=total_marks" placeholder="Total marks">
+       
+            
+
+            <button type="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        </div> 
+    </div>
+
+    <footer>
+        <div>
+            <img src="fb_logo.webp">
+            <img src="insta.png">
+            <img src="twitter.png">
+
+            <p>Follow up on our socials!</p>
+        </div>
+    </footer>
+
+    <script>
+        if(document.getElementById("reset")){
+            var Inputtext = document.getElementsByTagName(input[type="text"]);
+            var Numbertext = document.getElementsByTagName(input[type="number"]);
+
+            Inputtext.value=null;
+            Numbertext.value=null
+        }
+    </script>
+</body>
+</html>

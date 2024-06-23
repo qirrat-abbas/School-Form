@@ -1,0 +1,276 @@
+body{
+    margin: 0; padding: 0;;
+}
+
+header{
+    height: 130px; width: 100%;
+    background-color:#87A96B;
+}
+
+header img{
+    display: inline-block;
+    margin-top: 18px; margin-left: 20px;
+    height: 100px; width: 110px;
+    filter: drop-shadow(10px 10px 10px rgb(45, 73, 45));
+}
+
+header img:hover{
+    text-shadow: 0px 0px 12px white;
+    transition: 0.2s;
+}
+
+header p{
+    display: inline-block;
+    vertical-align: top; margin-top: 50px;
+    margin-left: 16%;
+    color: white; font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: xx-large;
+    text-shadow: 0px 0px 12px rgb(1, 43, 1);
+}
+
+#mainbody{
+    height: 540px; width: 100%;
+    background: url('C:/Users/Qirrat Abbas/Desktop/web/CSS/css display/challenged/imcb_form/schoolbackground.jpg') repeat 0;
+    background-repeat: no-repeat; background-size: cover;
+}
+
+#backgroundimg{
+    height: 540px;
+    background: rgba(255, 255, 255, 0.5); 
+}
+
+#mainheading{
+    display: block;
+    margin: 0px;
+    padding-top: 40px; margin-left: 36%;
+    color: rgb(20, 76, 15); text-shadow: 0px 0px 12px white;
+    font-size: x-large; font-family: 'Courier New', Courier, monospace; font-weight: 700;
+}
+
+form{
+    margin: auto; margin-top: 25px;
+    padding-top: 10px; padding-left: 10px;
+    height: 400px; width: 750px;
+    box-shadow: 0px 0px 15px 10px rgb(46, 45, 45);
+    background-color: aliceblue;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+form:hover{
+    box-shadow: 0px 0px 20px 10px #2a6218;
+    transition: 0.2s;
+}
+
+.mainlabel{
+    display: inline-block;
+    margin-left: 15px; font-weight: bold;
+    margin-top: 5px; margin-bottom: 0px;
+}
+
+.Category{
+    padding-top: 4px;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+
+label{
+    color: rgb(0, 0, 0);
+    font-size: large; 
+}
+
+input[type="radio"]{
+    margin-right: 85px; margin-left: 0.9px; margin-top: 0px;
+}
+
+input[type="radio"]:nth-child(3){
+    margin-right: 100px;
+}
+
+#studentlabel{
+    margin-left: 12%;
+}
+
+input[type=text],input[type=number],input[type=email]{
+    display: inline-block;
+    margin-left: 90px;  margin-right: 100px; height: 14px; width: 500px;
+    padding: 0 auto;
+    color: rgb(53, 52, 52);
+}
+
+input[type=text]:hover,input[type=number]:hover,input[type=email]:hover{
+    box-shadow: 0px 0px 5px 2px rgb(67, 67, 67);
+    transition: 0.2s;
+}
+
+#maillabel{
+    margin-right: 95px;
+}
+
+#email{
+    margin-right: 50px; margin-left: 0px;
+}
+
+#studentName,#fatherName,#religion,#designation,#cnic,#phone,#board,#rollno{
+    width: 160px; margin-right: 32px; margin-left: 0px;
+}
+
+#studentNameLabel{
+    margin-right: 32px;
+}
+
+#fatherNameLabel{
+    margin-right: 25px; margin-left: 0px;
+}    
+
+#religionlabel{
+    margin-right: 77px;
+}
+
+#religion{
+    margin-right: 18px;
+}
+
+#designation{
+    margin-right: 52px; 
+}
+
+#designationlabel{
+    margin-right: 34px;
+}
+
+#cniclabel{
+    margin-right: 95px;
+}
+
+#cnic{
+    margin-right: 18px;
+}
+
+#phonelabel{
+    margin-right: 52px;
+}
+
+#present_address{
+    margin-left: 27px; margin-right: 50px;
+}
+
+#permenant_address{
+    margin-left: 0px; margin-right: 0px;
+}
+
+hr{
+    font-weight: 200; width: 650px;
+    text-align: center; background-color: black;
+    margin-top: 17px; margin-bottom: 0px;
+}
+
+#academicrecord{
+    display: block;
+    margin-top: 8px; margin-left: 35%; margin-bottom: 0px;
+    font-size: medium; font-weight:800; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(1, 43, 1); margin-right: 30px;
+}
+
+.schoollabel{
+    margin-top: 10px; margin-right: 84px;
+    display: inline-block;
+}
+
+#schoolname{
+    width: 500px; margin:0px; margin-top: 10px; margin-right: 50px;
+}
+
+#boardlabel{
+    margin-right: 92px;
+}
+
+#rollno_label{
+    margin-right: 60px;
+}
+
+#rollno{
+    margin-right: 70px;
+}
+
+#board{
+    margin-right: 25px;
+}
+
+#obt_label{
+    margin-right: 54px;
+}
+
+form .mark { /*increased spepcifity for marks class by writing form with it*/
+    display: inline-block;
+    width: 160px;
+    margin-right:5px;  margin-top: 5px;  margin-left: 0px;
+}
+
+#marks_obt{
+    margin-right: 25px;
+}
+
+#total_label{
+    margin-right: 80px;
+}
+
+button{
+    width: 90px; height: 30px;
+    border-radius: 30px;
+    color: white; font-size: medium; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: auto; padding-top: 2px; padding-bottom: 2px; margin-top: 20px; margin-right: 10px;
+    text-align: center;
+}
+
+button[type="submit"]{
+    margin-left: 260px;
+    background-color: #427039;
+}
+
+button:hover{
+    text-shadow: 0px 0p 10px 5px white;
+}
+
+button[type="submit"]:hover{
+    box-shadow: 0px 0px 10px 5px rgb(53, 82, 53);
+}
+
+button[type="reset"]:hover{
+    box-shadow: 0px 0px 10px 5px rgb(161, 42, 42);
+}
+
+button[type="reset"]{
+    background-color: #862828;
+}
+
+footer{
+    height: 80px; width: 100%;
+    background-color: #4B6F44;
+}
+
+footer img{
+    display: inline-block;
+    height: 30px; width: 30px;
+    vertical-align: top; 
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+footer img:nth-child(2){
+    width: 40px;
+}
+
+footer img:nth-child(1){
+    margin-left: 46%; 
+}
+
+footer p{
+    display: block;
+    margin-top: 2px;
+    margin-left: 44%;
+    color: rgb(251, 248, 248);
+    font-size: medium; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 12px rgb(3, 16, 6);
+}
